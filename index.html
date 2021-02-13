@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Star Clicker</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="background-gif">
+    <header class="justify-content-center text-center text-white">
+        <h1>Star Clicker</h1>
+    </header>
+
+    <main class="container-fluid ">
+        <div class="row justify-content-center">
+            <div class="col-6 img-fluid btn " onclick="starClick()"><img
+                    src="https://66.media.tumblr.com/tumblr_ma10sbRx8L1rfjowdo1_500.gif"></div>
+        </div>
+
+        <div class="row justify-content-center text-center text-white">
+            <div class="col-6 text-star" id="star-number">0</div>
+        </div>
+        <div class="row">
+            <div class="col-12 justify-content-center text-center text-star">Stars</div>
+        </div>
+
+
+        <div class="row justify-content-center text-center">
+            <div class="col-2"><button onclick="buyRedStar()" class="round btn btn-dark text-star mt-2 mb-2">Red
+                    Star +2
+                    stars/click</button>
+                <div class="row text-white">
+                    <div class="col-12" id="redStarPrice">Star Price: 50 Stars</div>
+                    <div class="col-12" id="redStarMultiplier">+2 Stars</div>
+                </div>
+            </div>
+
+            <div class="col-2"><button onclick="buyBlueStar()" class="round btn btn-dark text-star mt-2 mb-2">Blue
+                    Star
+                    +5 stars/click</button>
+                <div class="row text-white">
+                    <div class="col-12" id="blueStarPrice">Star Price: 200 Stars</div>
+                    <div class="col-12" id="blueStarMultiplier">+5 Stars</div>
+                </div>
+            </div>
+
+            <div class="col-2"><button onclick="buyYellowStar()" class="round btn btn-dark text-star mt-2 mb-2">Yellow
+                    Star +20 stars/click</button>
+                <div class="row text-white">
+                    <div class="col-12" id="yellowStarPrice">Star Price: 600 Stars</div>
+                    <div class="col-12" id="yellowStarMultiplier">+20 Stars</div>
+                </div>
+            </div>
+
+            <div class="col-2"><button onclick="buySuperStar()" class="round btn btn-dark text-star mt-2 mb-2">Super
+                    Star +50 stars/click</button>
+                <div class="row text-white">
+                    <div class="col-12" id="superStarPrice">Star Price: 1000 Stars</div>
+                    <div class="col-12" id="superStarMultiplier">+50 Stars</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-6 m-4 text-white">
+                <p>Additional Stars:(<span id="autoStars">0</span>)</p><button onclick="buyAuto('autoStars')"
+                    class="round btn btn-dark text-star mb-5">
+                    Automatic Stars</button>
+            </div>
+        </div>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
