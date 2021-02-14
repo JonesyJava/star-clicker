@@ -2,7 +2,7 @@
 // users can see how many of each resource they have
 // users can see the amount a modification provides
 
-let globalStarCount = 1000
+let globalStarCount = 0
 let starImage = 'https://66.media.tumblr.com/tumblr_ma10sbRx8L1rfjowdo1_500.gif'
 let modifier = 0
 let totalMultiplier = 1
