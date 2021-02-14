@@ -10,3 +10,49 @@
 .card{
     background-color: rgba(0, 0, 0, 0.39);
 }
+
+.button-web{
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .title-mobile{
+        padding-left: 15rem;
+    }
+
+.counter-mobile{
+    padding-left: 16rem;
+}
+
+.star-mobile{
+    padding-left: 17rem;
+}
+
+.button-row-mobile{
+    justify-content: space-between ;
+
+}
+
+.red-star-padding{
+    padding-left: 3rem;
+}
+
+.blue-star-padding{
+    padding-left: 3rem;
+}
+
+.yellow-star-padding{
+    padding-left: 3rem;
+}
+
+.super-star-padding{
+    padding-left: 3rem;
+}
+
+.add-stars-mobile{
+    padding-left: 6rem;
+}
+
+
+}

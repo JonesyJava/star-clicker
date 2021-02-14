@@ -16,7 +16,7 @@
 
 <body class="background-gif">
     <header class="justify-content-center text-center text-white">
-        <h1>Star Clicker</h1>
+        <h1 class="title-mobile">Star Clicker</h1>
     </header>
 
     <main class="container-fluid ">
@@ -25,16 +25,17 @@
                     src="https://66.media.tumblr.com/tumblr_ma10sbRx8L1rfjowdo1_500.gif"></div>
         </div>
 
-        <div class="row justify-content-center text-center text-white">
-            <div class="col-6 text-star" id="star-number">0</div>
+        <div class="row justify-content-center text-center text-white counter-mobile">
+            <div class="col-12 text-star" id="star-number">0</div>
         </div>
         <div class="row">
-            <div class="col-12 justify-content-center text-center text-star">Stars</div>
+            <div class="col-12 justify-content-center text-center text-star star-mobile">Stars</div>
         </div>
 
 
-        <div class="row justify-content-center text-center">
-            <div class="col-2"><button onclick="buyRedStar()" class="round btn btn-dark text-star mt-2 mb-2">Red
+        <div class="row button-web text-center button-row-mobile">
+            <div class="col-2 red-star-padding"><button onclick="buyRedStar()"
+                    class="round btn btn-dark text-star mt-2 mb-2">Red
                     Star +2
                     stars/click</button>
                 <div class="row text-white">
@@ -43,7 +44,8 @@
                 </div>
             </div>
 
-            <div class="col-2"><button onclick="buyBlueStar()" class="round btn btn-dark text-star mt-2 mb-2">Blue
+            <div class="col-2 blue-star-padding"><button onclick="buyBlueStar()"
+                    class="round btn btn-dark text-star mt-2 mb-2">Blue
                     Star
                     +5 stars/click</button>
                 <div class="row text-white">
@@ -52,7 +54,8 @@
                 </div>
             </div>
 
-            <div class="col-2"><button onclick="buyYellowStar()" class="round btn btn-dark text-star mt-2 mb-2">Yellow
+            <div class="col-2 yellow-star-padding"><button onclick="buyYellowStar()"
+                    class="round btn btn-dark text-star mt-2 mb-2">Yellow
                     Star +20 stars/click</button>
                 <div class="row text-white">
                     <div class="col-12" id="yellowStarPrice">Star Price: 600 Stars</div>
@@ -60,7 +63,8 @@
                 </div>
             </div>
 
-            <div class="col-2"><button onclick="buySuperStar()" class="round btn btn-dark text-star mt-2 mb-2">Super
+            <div class="col-2 super-star-padding"><button onclick="buySuperStar()"
+                    class="round btn btn-dark text-star mt-2 mb-2">Super
                     Star +50 stars/click</button>
                 <div class="row text-white">
                     <div class="col-12" id="superStarPrice">Star Price: 1000 Stars</div>
@@ -70,7 +74,7 @@
         </div>
 
         <div class="row justify-content-center text-center">
-            <div class="col-6 m-4 text-white">
+            <div class="col-6 m-4 text-white add-stars-mobile">
                 <p>Additional Stars:(<span id="autoStars">0</span>)</p><button onclick="buyAuto('autoStars')"
                     class="round btn btn-dark text-star mb-5">
                     Automatic Stars</button>
